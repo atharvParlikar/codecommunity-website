@@ -97,7 +97,12 @@ function App() {
       </div>
       <div className="ml-3 mr-3 pt-5 flex glow mt-16">
         <h1 className="text-2xl font-mono text-white pr-3">{">>"}</h1>
-        <h1 className="text-2xl font-mono text-white">Events and new Stuff</h1>
+        <div>
+          <h1 className="text-2xl font-mono text-white">
+            Events and new Stuff
+          </h1>
+          <p className="text-gray-200 text-sm">( not ready yet )</p>
+        </div>
       </div>
       <div className="bg-gradient-to-r  via-blue-500 from-purple-600 to-green-300 w-4/5 mx-auto rounded mt-5">
         <h1 className="font-VT323 text-3xl text-white ml-3">0x00 Hackthon</h1>
